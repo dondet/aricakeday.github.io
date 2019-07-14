@@ -227,7 +227,7 @@
             var gifs = [];
             
             function selectRandomSong(audioObjectToEdit) {
-                var songs = ["https://dl.dropbox.com/s/is7idwfbbssci96/Bag%20Raiders%20-%20Shooting%20Stars.mp3?dl=0", "https://dl.dropbox.com/s/brkipdfb9aq2cke/FRC%20-%20Rhapsody.mp3?dl=0", "https://dl.dropbox.com/s/vsc247ouuadue5f/Gabe%20-%20the.mp3?dl=0", "https://dl.dropbox.com/s/3dcjnqig5qawdaf/Gabe%20the%20dog%20-%20dont%20stop%20me%20now%20%28Queen%29.mp3?dl=0", "https://dl.dropbox.com/s/6e29zgp7vqhyb87/NCSS%202018%20Tutors%20-%20Music%20Video%20%28Youre%20Welcome%29.mp3?dl=0"];
+                var songs = ["https://dl.dropbox.com/s/is7idwfbbssci96/Bag%20Raiders%20-%20Shooting%20Stars.mp3?dl=0", "https://dl.dropbox.com/s/vsc247ouuadue5f/Gabe%20-%20the.mp3?dl=0", "https://dl.dropbox.com/s/3dcjnqig5qawdaf/Gabe%20the%20dog%20-%20dont%20stop%20me%20now%20%28Queen%29.mp3?dl=0", "https://dl.dropbox.com/s/6e29zgp7vqhyb87/NCSS%202018%20Tutors%20-%20Music%20Video%20%28Youre%20Welcome%29.mp3?dl=0"];
                 var song = songs[Math.floor(Math.random() * songs.length)];
                 document.getElementById("audio" + audioObjectToEdit).src = song;
             }
